@@ -16,7 +16,6 @@ function App() {
       
         <BrowserRouter>
         <NvaBar />
-        <Header/>
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>

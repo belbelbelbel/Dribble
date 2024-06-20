@@ -1,6 +1,11 @@
 .pink-bg {
     background-color: rgb(249, 233, 235);
 }
+
+.pink-bgg {
+    background-color: peachpuff;
+}
+
 .navbar-cont {
     box-shadow: 0 2px 4px rgb(185, 185, 185)
 }
