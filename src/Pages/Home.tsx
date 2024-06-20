@@ -5,7 +5,7 @@ import { Content2 } from './Context2'
 
 export const Home = () => {
   return (
-    <div>
+    <div className='flex flex-col '>
       <Header/>
       <Content1/>
       <Content2/>
