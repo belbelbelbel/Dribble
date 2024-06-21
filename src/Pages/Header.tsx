@@ -1,21 +1,25 @@
 import React from 'react'
 import { CiSearch } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
+import animatedData from "../Style/Animation - 1717368668541.json";
 import "../Style/Styles.css"
+import Lottie from 'lottie-react';
 export const Header = () => {
     return (
         <div className='w-screen  text-black z-20'>
-            <div className='w-screen h-[35vw] pink-bg flex flex-col justify-center items-center '>
-                <div className='relative z-50  flex flex-col font-bold w-[80%] gap-[1vw] leading-[5vw]   mx-auto'>
-                    <div className='flex items-center justify-between gap-[10vw] '>
+            <div className='w-screen h-[35vw] pink-bg overflow-hidden  flex flex-col justify-center items-center '>
+                <div className='relative z-50 flex flex-col font-bold w-[80%] gap-[1vw] leading-[5vw]   mx-auto'>
+                    <div className='flex items-center  justify-center gap-[10vw] '>
                         <div className='w-[100%] body text-[5vw] tracking-[2px] banter leading-[5.3vw]' >
                             Save upto <div className='flex gap-[0.4vw]' ><div className='text-red-400' >80%</div> with</div> B<span className=' text-red-400'>e</span>nd<span className=' text-red-400'>e</span>Hav<span className=' text-red-500'></span>n
                             <div className='text-[0.9vw] font-light text-black relative -top-[1vw] tracking-[0px]' style={{ fontFamily: "Open sans" }}>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur adipisicing
                             </div>
                         </div>
-                        <div>
-                            <img src="public/woman-4335235_1280.jpg" alt="header image" className='w-[70%] mx-auto'/>
+                        <div className='relative right-[30vw] -top-[10vw]'>
+                            <div className='w-[65vw] xl:w-[52vw] absolute md:w-[50%]  max-h-[60vh] flex rounded-[100%] bg-transparent' >
+                                <Lottie animationData={animatedData}></Lottie>
+                            </div>
                         </div>
                     </div>
 
