@@ -6,13 +6,14 @@ export const Header = () => {
     return (
         <div className='w-screen  text-black z-20'>
             <div className='w-screen h-[35vw] pink-bg flex flex-col justify-center items-center '>
-                <div className='relative z-50  flex flex-col font-bold w-[80%] leading-[5vw]   mx-auto'>
-                    <div className='w-[45%] body text-[5vw] tracking-[2px]' >
-                        Save upto <div className='flex gap-[0.4vw]' style={{ fontFamily: "Open sans" }}><div className='text-red-400'>80%</div> with</div> B<span className=' text-red-400'>e</span>nd<span className=' text-red-400'>e</span>Hav<span className=' text-red-500'></span>n
-                    </div>
-                    <div className='text-[0.9vw] font-light text-gray-500 relative -top-[1vw]'>
+                <div className='relative z-50  flex flex-col font-bold w-[80%] gap-[1vw] leading-[5vw]   mx-auto'>
+                    <div className='w-[%] body text-[5vw] tracking-[2px] banter leading-[5.3vw]' >
+                        Save upto <div className='flex gap-[0.4vw]' ><div className='text-red-400' >80%</div> with</div> B<span className=' text-red-400'>e</span>nd<span className=' text-red-400'>e</span>Hav<span className=' text-red-500'></span>n
+                        <div className='text-[0.9vw] font-light text-black relative -top-[1vw] tracking-[0px]'  style={{ fontFamily: "Open sans" }}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur adipisicing
                     </div>
+                    </div>
+                  
                     <div className=' w-[50%] flex    flex items-center gap-[1vw]'>
 
                         <div className='bg-white w-[90%] px-[1vw] h-[3vw] rounded-[2vw] gap-[0vw] flex items-center '>
@@ -20,7 +21,7 @@ export const Header = () => {
                                 <CiSearch className='text-[1.6vw] text-red-500' />
                                 <hr />
                             </div>
-                            <input type="text" placeholder='Search' autoFocus className=' w-[70%] bg-transparent text-[1vw] outline-none  font-medium  h-full py-[0.5vw] rounded-[2vw] px-[1vw]' />
+                            <input type="text" placeholder='Search' autoFocus className=' w-[70%] bg-transparent text-[1vw] outline-none  font-normal  h-full py-[0.5vw] rounded-[2vw] px-[1vw]' />
                           <div className='flex items-center gap-[0.5vw]'>
                             <div className='h-6 w-0.5 bg-gray-300'></div>
                             <div><IoLocationOutline className='text-red-500 text-[1.2vw]'/></div>
@@ -28,7 +29,7 @@ export const Header = () => {
                           </div>
                         </div>
                         <div className='items-center justify-center relative flex'>
-                            <button className="text-[1.2vw] bg-red-400 h-full px-[3vw] font-normal text-white flex items-center rounded-[2vw] justify-center h-0 py-[1.4vw] search-bar" style={{fontFamily:"Open sans"}}>Explore</button>
+                            <button className="text-[1vw] bg-red-400 px-[3vw] font-normal text-white flex items-center rounded-[2vw] justify-center h-0 py-[1.4vw] search-bar" style={{fontFamily:"Open sans"}}>Explore</button>
                         </div>
                     </div>
                     {/* <img src="/genelify-667417c93b261-signature-generator (2).png" alt="the opening" width="300px"/> */}
