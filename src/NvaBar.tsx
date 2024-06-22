@@ -6,12 +6,11 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 export const NvaBar = () => {
     return (
         <div className='w-screen bg-white h-[5rem] overflow-hidden text-black navbar-cont relative z-50'>
-            <div className='w-[80%] py-[0.8vw]  justify-between flex mx-auto items-center'>
+            <div className='w-[80%]  2xl:py-[0.8vw] xl:py-[1.5 vw] md:py-[2.5vw]  justify-between flex mx-auto items-center'>
                 <div className='flex items-center gap-[4vw]'>
-                    <div className='tracking-[2px] text-[#383838] text-[1.3vw]' style={{ fontFamily: "Open Sans" }}>
-                        C<span className='text-red-400 text-[1.8vw] mx-0'>O</span>UPONS
+                    <div className='tracking-[2px] text-[#383838]   text-[1.3vw]' style={{ fontFamily: "Open Sans" }}>
+                        C<span className='text-red-400 text-[1.8vw] mx-0 '>O</span>UPONS
                     </div>
-
                     <div className='flex gap-[2rem] text-[0.9vw] font-normal text-[#383838]'>
                         <NavLink  to="/" className={({ isActive }) => isActive ? 'text-red-500' : ''}>Home</NavLink>
                         <div className='flex items-center'>
