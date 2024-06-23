@@ -7,7 +7,7 @@ import Lottie from 'lottie-react';
 export const Header = () => {
     return (
         <div className='w-screen  text-black z-20'>
-            <div className='w-screen h-[35vw] pink-bg overflow-hidden  flex flex-col justify-center items-center '>
+            <div className='w-screen 2xl:h-[35vw] md:h-[35vw] xl:h-[40vw] pink-bg overflow-hidden  flex flex-col justify-center items-center '>
                 <div className='relative z-50 flex flex-col font-bold w-[80%] gap-[1vw] leading-[5vw]   mx-auto'>
                     <div className='flex items-center  justify-center gap-[10vw] '>
                         <div className='w-[100%] body text-[5vw] tracking-[2px] banter leading-[5.3vw]' >
@@ -44,7 +44,7 @@ export const Header = () => {
                     {/* <img src="/genelify-667417c93b261-signature-generator (2).png" alt="the opening" width="300px"/> */}
                 </div>
                 <div>
-                    <img src="/wave (10).svg" alt="wavy flow" className='absolute -bottom-[6.5vw] -rotate-270  z-0 left-0  ' />
+                    <img src="/wave (10).svg" alt="wavy flow" className='absolute 2xl:-bottom-[6.5vw] md:-bottom-[6.5vw] -rotate-270  z-0 left-0  ' />
                 </div>
             </div>
             <div className='relatiive'></div>
