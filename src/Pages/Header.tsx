@@ -1,4 +1,3 @@
-import React from 'react'
 import { CiSearch } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import animatedData from "../Style/Animation - 1717368668541.json";

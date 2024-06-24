@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaCartArrowDown } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";

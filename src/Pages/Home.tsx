@@ -1,4 +1,3 @@
-import React from 'react'
 import { Header } from './Header'
 import { Content1 } from './Context1'
 import { Content2 } from './Context2'

@@ -1,4 +1,3 @@
-import React from 'react'
 export const Context3 = () => {
     return (
         <div className='w-screen md:h-[40vw] flex-col h-[70vw]  flex justify-center items-center  '  >
