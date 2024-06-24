@@ -25,17 +25,6 @@
   }  
 
 
-.body {
-    -webkit-font-smoothing: antialiased; /* For WebKit browsers */
-    -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
-    font-smooth: always; /* General font-smoothing */
-}
-
-.smooth-text {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smooth: always;
-}
 
 .banter{
     font-family: "Bree Serif", serif;

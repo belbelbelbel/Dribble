@@ -1,23 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 export const Content1 = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
-      slidesToSlide: 3 // optional, default to 1.
+      slidesToSlide: 3
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
-      slidesToSlide: 2 // optional, default to 1.
+      slidesToSlide: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1 // optional, default to 1.
+      slidesToSlide: 1
     }
   };
 
@@ -102,7 +101,7 @@ export const Content1 = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurr(curr => (curr === (contentItems.length) / 4 ? 3 : curr + 1));
-    }, 5000); // Change slide every 3 seconds
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -115,11 +114,16 @@ export const Content1 = () => {
   };
 
   return (
-    <div className='relative w-screen h-screen mx-auto items-center justify-center flex'>
+    <div className='relative w-screen md:h-[65vw] h-[70vw] xl:h-screen mx-auto items-center justify-center flex'>
       <div className='items-center justify-between w-[93%] mx-auto flex'>
-        <button className={`pink-bg rounded-[100%] p-[1vw] outline-none cursor-pointer hover:bg-red-100 hover:scale-110 ${curr === 0 ? 'disable' : ''}`} onClick={prev}>
-          <FaAngleLeft className='text-red-500' />
-        </button>
+        {
+          curr === 0 ? "" : (
+            <button className={`pink-bg rounded-[100%] p-[1vw] outline-none cursor-pointer hover:bg-red-100 hover:scale-110 ${curr === 0 ? 'disable' : ''}`} onClick={prev}>
+              <FaAngleLeft className='text-red-500' />
+            </button>
+          )
+        }
+
         <div className='w-[84.9%] mx-auto flex items-center gap-[4vw] flex-col'>
           <div className='text-center flex-col flex gap-[0.8vw]'>
             <h1 className='font-bold text-black text-[2vw]'>Categories</h1>
@@ -128,7 +132,7 @@ export const Content1 = () => {
             </div>
           </div>
           <div className='relative w-full overflow-hidden' >
-            <div className='flex transition-transform ease-out duration-1000 gap-[1.5vw]' style={{ transform: `translateX(-${curr * 100}%)` }}>
+            <div className='flex transition-transform ease-out duration-1000 gap-[1.4vw]' style={{ transform: `translateX(-${curr * 100}%)` }}>
               {contentItems.map((item, index) => (
                 <div key={index} className={`h-[21vw] w-[25vw] transition-transform ease-out ${item.bgColor} rounded-[1vw] flex-shrink-0`} >
                   <div className='flex flex-col gap-[0.5vw] w-full h-full items-center rounded-[2vw]'>
@@ -143,9 +147,13 @@ export const Content1 = () => {
             </div>
           </div>
         </div>
-        <button className='pink-bg rounded-[100%] p-[1vw] outline-none cursor-pointer hover:bg-red-100 hover:scale-110' onClick={next}>
-          <FaAngleRight className='text-red-500' />
-        </button>
+        {
+          curr === (contentItems.length) / 4 ? "" : (
+            <button className='pink-bg rounded-[100%] p-[1vw] outline-none cursor-pointer hover:bg-red-100 hover:scale-110' onClick={next}>
+              <FaAngleRight className='text-red-500' />
+            </button>
+          )
+        }
       </div>
     </div >
   );
