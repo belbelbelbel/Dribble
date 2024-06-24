@@ -101,7 +101,7 @@ export const Content1 = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurr(curr => (curr === (contentItems.length) / 4 ? 0 : curr + 1));
+      setCurr(curr => (curr === (contentItems.length) / 4 ? 3 : curr + 1));
     }, 5000); // Change slide every 3 seconds
 
     return () => clearInterval(interval);
@@ -111,7 +111,7 @@ export const Content1 = () => {
     setCurr(curr => (curr === 0 ? 0 : curr - 1));
   };
   const next = () => {
-    setCurr(curr => (curr === (contentItems.length) / 4 ? 0 : curr + 1));
+    setCurr(curr => (curr === (contentItems.length) / 4 ? 3 : curr + 1));
   };
 
   return (
