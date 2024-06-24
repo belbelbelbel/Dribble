@@ -17,6 +17,13 @@
     color: rgb(240, 60, 60);
 }
 
+.btn{
+    box-shadow: 0px 8px 10px rgba(230, 51, 51, 0.15); /* Drop shadow at the bottom */
+}
+.btn:hover {
+    box-shadow: 0px 8px 10px rgba(230, 51, 51, 0.2); /* Stronger shadow on hover */
+  }  
+
 
 .body {
     -webkit-font-smoothing: antialiased; /* For WebKit browsers */

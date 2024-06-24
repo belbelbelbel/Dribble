@@ -7,7 +7,7 @@ import Lottie from 'lottie-react';
 export const Header = () => {
     return (
         <div className='w-screen  text-black z-20'>
-            <div className='w-screen 2xl:h-[35vw] md:h-[35vw] xl:h-[40vw] pink-bg overflow-hidden  flex flex-col justify-center items-center '>
+            <div className='w-screen 2xl:h-[35vw] md:h-[35vw] xl:h-[40vw]  pink-bg overflow-hidden  flex flex-col justify-center items-center '>
                 <div className='relative z-50 flex flex-col font-bold w-[80%] gap-[1vw] leading-[5vw]   mx-auto'>
                     <div className='flex items-center  justify-center gap-[10vw] '>
                         <div className='w-[100%] body text-[5vw] tracking-[2px] banter leading-[5.3vw]' >
@@ -17,7 +17,7 @@ export const Header = () => {
                             </div>
                         </div>
                         <div className='relative right-[30vw] -top-[10vw]'>
-                            <div className='w-[65vw] 2xl:wg-[52vw] absolute md:w-[30vw]  max-h-[60vh] flex rounded-[100%] bg-transparent' >
+                            <div className='md:w-[65vw] 2xl:wg-[52vw] absolute md:w-[30vw] w-[34vw]  max-h-[60vh] flex rounded-[100%] bg-transparent' >
                                 <Lottie animationData={animatedData}></Lottie>
                             </div>
                         </div>
@@ -37,8 +37,8 @@ export const Header = () => {
                                 <div className='text-[1vw] font-normal text-red-500'>Location</div>
                             </div>
                         </div>
-                        <div className='items-center justify-center relative flex'>
-                            <button className="text-[1vw] bg-red-400 px-[3vw] font-normal text-white flex items-center rounded-[2vw] justify-center h-0 py-[1.4vw] search-bar" style={{ fontFamily: "Open sans" }}>Explore</button>
+                        <div className='items-center justify-center relative flex '>
+                            <button className="text-[1vw] bg-red-400 px-[3vw] btn font-normal text-white flex items-center rounded-[2vw] justify-center h-0 py-[1.4vw] search-bar" style={{ fontFamily: "Open sans" }}>Explore</button>
                         </div>
                     </div>
                     {/* <img src="/genelify-667417c93b261-signature-generator (2).png" alt="the opening" width="300px"/> */}
