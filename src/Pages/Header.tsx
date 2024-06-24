@@ -25,7 +25,7 @@ export const Header = () => {
 
                     <div className=' w-[50%] flex    flex items-center gap-[1vw]'>
 
-                        <div className='bg-white w-[90%] px-[1vw] h-[3.5vw] rounded-[2vw] gap-[0vw] flex items-center '>
+                        <div className='bg-white w-[90%] px-[1vw] h-[3.2vw] rounded-[2vw] gap-[0vw] flex items-center '>
                             <div className="text-[1vw]">
                                 <CiSearch className='text-[1.6vw] text-red-500' />
                                 {/* <hr /> */}
