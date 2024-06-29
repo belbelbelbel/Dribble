@@ -2,7 +2,7 @@ export const Content2 = () => {
     return (
         <div className='w-screen h-[47vw] pink-bgg  '  >
             <div className='w-screen h-[30vw]  relative z-10'>
-                {/* <img src="/wave (10)1.svg" alt="wave-header" className='z-0 bottom-[20vw] absolute 0  rotate-180 ' /> */}
+                <img src="/wave (10)1.svg" alt="wave-header" className='z-0 bottom-[20vw] absolute 0  rotate-180 ' />
             </div>
             <div className='z-40 relative items-center justify-center -top-[24vw]  flex-col gap-[3vw] flex w-[80%] mx-auto'>
                 <div className='text-center  flex-col flex gap-[0.8vw]'>
