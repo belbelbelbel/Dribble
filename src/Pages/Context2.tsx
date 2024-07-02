@@ -32,7 +32,7 @@ export const Content2 = () => {
                         <div className=' flex flex-col gap-[0.5vw] w-[25vw] h-[13vw] items-center rounded-[2vw]'>
                             <img src="/content3.jpg" alt="imagefor event" className='rounded-[1vw] h-[12vw] w-full' />
                             <div className='flex items-start flex-col justify-center   gap-[0.1vw] mx-[1vw]'>
-                                <h1 className='font-bold text-[1.3vw]'>Products</h1>
+                                {/* <h1 className='font-bold text-[1.3vw]'>Products</h1> */}
                                 <div className='text-[0.7vw] text-[#524b4b]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur quo, a, ullam repudiandae cum molestiae quis modi at soluta  </div>
                             </div>
                         </div>
