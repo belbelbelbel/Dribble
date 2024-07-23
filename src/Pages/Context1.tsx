@@ -82,13 +82,13 @@ export const Content1 = () => {
 
   console.log(contentItems.length - 1)
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurr(curr => (curr === (contentItems.length) / 4 ? 3 : curr + 1));
-    }, 5000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurr(curr => (curr === (contentItems.length) / 4 ? 3 : curr + 1));
+  //   }, 5000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   const prev = () => {
     setCurr(curr => (curr === 0 ? 0 : curr - 1));
