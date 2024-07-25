@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import  { useState } from 'react';
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 import 'react-multi-carousel/lib/styles.css';
 export const Content1 = () => {
