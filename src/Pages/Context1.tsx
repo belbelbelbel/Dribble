@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import  { useState } from 'react';
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 import 'react-multi-carousel/lib/styles.css';
 export const Content1 = () => {
@@ -78,17 +78,35 @@ export const Content1 = () => {
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur quo, a, ullam repudiandae cum molestiae quis modi at soluta',
       bgColor: 'pink-bgg'
     },
+    {
+      imgSrc: '/content2.jpg',
+      title: 'Unique discount services',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur quo, a, ullam repudiandae cum molestiae quis modi at soluta',
+      bgColor: 'pink-bg'
+    },
+    {
+      imgSrc: '/content1.jpg',
+      title: 'Events',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur quo, a, ullam repudiandae cum molestiae quis modi at soluta',
+      bgColor: 'pink-bgg'
+    },
+    {
+      imgSrc: '/content3.jpg',
+      title: 'Products',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur quo, a, ullam repudiandae cum molestiae quis modi at soluta',
+      bgColor: 'pink-bg'
+    },
   ];
 
   console.log(contentItems.length - 1)
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurr(curr => (curr === (contentItems.length) / 4 ? 3 : curr + 1));
-    }, 5000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurr(curr => (curr === (contentItems.length) / 4 ? 3 : curr + 1));
+  //   }, 5000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   const prev = () => {
     setCurr(curr => (curr === 0 ? 0 : curr - 1));
@@ -132,7 +150,7 @@ export const Content1 = () => {
           </div>
         </div>
         {
-          curr === (contentItems.length) / 4 ? "" : (
+          curr === (contentItems.length) / 5 ? "" : (
             <button className='pink-bg rounded-[100%] p-[1vw] outline-none cursor-pointer hover:bg-red-100 hover:scale-110' onClick={next}>
               <FaAngleRight className='text-red-500' />
             </button>

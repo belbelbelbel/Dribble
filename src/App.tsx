@@ -8,9 +8,8 @@ function App() {
   return (
     <>
       <div>
-      
         <BrowserRouter>
-        <NvaBar />
+          <NvaBar />
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>
