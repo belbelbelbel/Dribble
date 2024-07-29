@@ -16,7 +16,7 @@ export const Header = () => {
                             </div>
                         </div>
                         <div className='relative xl:right-[30vw]   right-[25vw]  md:right-[30vw] -top-[10vw]'>
-                            <div className='2xl:w-[50vw]  xl:w-[29.4vw]  absolute md:w-[34vw] w-[30vw]  max-h-[60vh] flex rounded-[100%] bg-transparent' >
+                            <div className='2xl:w-[50vw]  xl:w-[26.4vw]  absolute md:w-[34vw] w-[30vw]  max-h-[60vh] flex rounded-[100%] bg-transparent' >
                                 <Lottie animationData={animatedData}></Lottie>
                             </div>
                         </div>
