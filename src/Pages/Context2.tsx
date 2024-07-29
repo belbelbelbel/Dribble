@@ -39,8 +39,6 @@ export const Content2 = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }
