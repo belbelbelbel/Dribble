@@ -6,7 +6,7 @@ import Lottie from 'lottie-react';
 export const Header = () => {
     return (
         <div className='w-screen  text-black z-20'>
-            <div className='w-screen 2xl:h-[30vw] md:h-[35vw] xl:h-[40vw] h-[50vw]  pink-bg overflow-hidden  flex flex-col justify-center items-center '>
+            <div className='w-screen 2xl:h-[30vw] md:h-[35vw] xl:h-[36.5vw] h-[50vw]  pink-bg overflow-hidden  flex flex-col justify-center items-center '>
                 <div className='relative z-50 flex flex-col  font-bold w-[80%] md:gap-[1vw] gap-[10vw]  leading-[5vw]   mx-auto'>
                     <div className='flex items-center  justify-center gap-[12vw] '>
                         <div className='w-[100%]  text-[9vw]   md:text-[5vw] md:tracking-[2px] tracking-[2px] banter leading-[7.8vw] md:leading-[5.3vw]' >
