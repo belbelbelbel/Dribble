@@ -6,7 +6,7 @@ import Lottie from 'lottie-react';
 export const Header = () => {
     return (
         <div className='w-screen  text-black z-20'>
-            <div className='w-screen 2xl:h-[26vw] md:h-[35vw] xl:h-[30vw] h-[50vw]  pink-bg overflow-hidden  flex flex-col justify-center items-center '>
+            <div className='w-screen 2xl:h-[30vw] md:h-[35vw] xl:h-[40vw] h-[50vw]  pink-bg overflow-hidden  flex flex-col justify-center items-center '>
                 <div className='relative z-50 flex flex-col  font-bold w-[80%] md:gap-[1vw] gap-[10vw]  leading-[5vw]   mx-auto'>
                     <div className='flex items-center  justify-center gap-[12vw] '>
                         <div className='w-[100%]  text-[9vw]   md:text-[5vw] md:tracking-[2px] tracking-[2px] banter leading-[7.8vw] md:leading-[5.3vw]' >
@@ -42,7 +42,7 @@ export const Header = () => {
                     {/* <img src="/genelify-667417c93b261-signature-generator (2).png" alt="the opening" width="300px"/> */}
                 </div>
                 <div className="">
-                    <img src="/wave (10).svg" alt="wavy flow" className='absolute  2xl:-bottom-[2.5vw]   xl:-bottom-[7.5vw] bottom -rotate-270  z-0 left-0'/>
+                    <img src="/wave (10).svg" alt="wavy flow" className='absolute    xl:-bottom-[0vw] bottom -rotate-270  z-0 left-0'/>
                 </div>
             </div>
             <div className='relatiive'></div>
