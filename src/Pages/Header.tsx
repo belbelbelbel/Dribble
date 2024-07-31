@@ -42,7 +42,7 @@ export const Header = () => {
                     {/* <img src="/genelify-667417c93b261-signature-generator (2).png" alt="the opening" width="300px"/> */}
                 </div>
                 <div className="">
-                    <img src="/wave (10).svg" alt="wavy flow" className='absolute    xl:-bottom-[0vw] bottom -rotate-270  z-0 left-0'/>
+                    <img src="/wave (10).svg" alt="wavy flow" className='absolute    xl:-bottom-[9.5vw] bottom -rotate-270  z-0 left-0'/>
                 </div>
             </div>
             <div className='relatiive'></div>
